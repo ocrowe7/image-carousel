@@ -22,7 +22,7 @@ function changeImage() {
 		idx = img.length - 1
 	}
 	
-	imgs.style.transform = 'translateX(${-idx * 500}px)'
+	imgs.style.transform = `translateX(${-idx * 500}px)`
 }
 
 function resetInterval() {
